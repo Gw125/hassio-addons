@@ -1,4 +1,4 @@
-version: "0.70.2"
+version: "0.70.3"
 slug: frpc
 name: frp 客户端 (frpc)
 description: 通过 frp 内网穿透，从外网远程访问 Home Assistant
