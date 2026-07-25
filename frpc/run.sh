@@ -14,7 +14,6 @@ serverAddr = "${SERVER_ADDR}"
 serverPort = ${SERVER_PORT}
 auth.method = "token"
 auth.token = "${TOKEN}"
-login.failExit = false
 
 [[proxies]]
 name = "homeassistant"
