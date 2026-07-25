@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bashio
+#!/command/with-contenv bashio
 
 SERVER_ADDR=$(bashio::config 'server_addr')
 SERVER_PORT=$(bashio::config 'server_port')
@@ -14,6 +14,7 @@ serverAddr = "${SERVER_ADDR}"
 serverPort = ${SERVER_PORT}
 auth.method = "token"
 auth.token = "${TOKEN}"
+login.failExit = false
 
 [[proxies]]
 name = "homeassistant"
